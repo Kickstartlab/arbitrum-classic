@@ -1,0 +1,49 @@
+.bg-gradient {
+  background: linear-gradient(140.28deg, #39B54A -4.67%, rgba(57, 181, 74, 0.19) 118.65%);
+
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  filter: drop-shadow(8px 8px 6px rgb(146, 179, 221));
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.border-custom {
+  border: 3px solid;
+  border-radius: 8px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(50deg, #023F20 0%, #006231 100%);
+  filter: drop-shadow(4px 6px 61px rgba(99, 104, 231, 0.25));
+  border-radius: 8px;
+}
+
+.btn-custom {
+  background: linear-gradient(90deg, #023F20 0%, #006231 100%);
+  box-shadow: 4px 6px 61px rgba(99, 104, 231, 0.2);
+  border-radius: 8px;
+}
+
+.line {
+  background: #59F06E;
+  animation: line 6s 5s infinite linear;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
