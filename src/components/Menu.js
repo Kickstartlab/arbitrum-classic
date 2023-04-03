@@ -21,7 +21,7 @@ export default function Menu() {
           <ul className="text-md flex justify-center gap-8 pt-4 items-center text-white-100">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="text-white-50 hover:text-white-100">About</a></li>
-            <li><a href="#about" className="text-white-50 hover:text-white-100">Buy</a></li>
+            <li><a href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2" className="text-white-50 hover:text-white-100">Buy</a></li>
             <li><a href="/" className="text-white-50 hover:text-white-100">Whitepaper</a></li>
             <li><a href="/" className='text-white-50 hover:text-white-100'>Dapp</a></li>
           </ul>
@@ -72,7 +72,7 @@ export default function Menu() {
             <a href="#about" className="text-lg ml-4 font-semibold">About</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="/" className="text-lg ml-4 font-semibold">Buy</a>
+            <a href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2" className="text-lg ml-4 font-semibold">Buy</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
             <a href="/" className="text-lg ml-4 font-semibold">Whitepaper</a>

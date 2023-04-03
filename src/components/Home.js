@@ -59,7 +59,7 @@ export default function Home() {
                                     </button>
                                 </a>
 
-                                <a href="/" className='mt-5'>
+                                <a href="https://t.me/arbitrumclassic_arb" className='mt-5'>
                                 <div className='border-b-2 border-green-50 opacity-50 line_2 -mb-0.5'> </div>
                                     <button className="text-white-100 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg border-custom">
                                         join community
@@ -186,7 +186,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <img src={side} className='absolute left-0'></img>
+            <img src={side} className='absolute left-0 w-1/2'></img>
 
 
             {/* How it Works */}
@@ -397,13 +397,13 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="lg:py-16 py-5 lg:px-20 px-5 container mx-auto">
+            <div className="lg:py-16 py-5 lg:px-20 px-5 mb-12 container mx-auto">
 
                 <p className="md:text-5xl text-2xl font-semibold text-center mx-auto">
                     Connect with the $ARBC Community
                 </p>
 
-                <a href="/">
+                <a href="https://t.me/arbitrumclassic_arb">
                     <button className="text-white-100 btn-custom py-4 flex items-center gap-x-2 md:text-lg text-sm md:px-8 px-3 font-semibold mt-6 mx-auto">
                         join to comunity
                         <span>
