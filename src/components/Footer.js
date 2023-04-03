@@ -16,7 +16,7 @@ export default function Footer() {
 
       <footer className='relative text-white-100 mx-auto lg:px-20 font-inter px-5'>
 
-        <img src={bottom} className='absolute right-0 left-0 bottom-0 w-full'></img>
+        <img src={bottom} className='absolute right-0 left-0 bottom-0 w-full -z-10'></img>
 
         <div data-aos="zoom-in" data-aos-delay="350" className='absolute right-0 left-1/2 -ml-56 -mt-12 lg:block hidden'>
           <img src={logo_1} alt="Logo" className='' />

@@ -9,6 +9,7 @@ import b_4 from '../assets/b_4.png';
 import about from '../assets/about.png';
 import tool_1 from '../assets/tool_1.png';
 import tool_2 from '../assets/tool_2.png';
+import side from '../assets/side.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -174,6 +175,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
+            <img src={side} className='absolute left-0'></img>
+
 
             {/* How it Works */}
 
