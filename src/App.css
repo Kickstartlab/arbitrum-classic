@@ -13,6 +13,10 @@
   border-image-slice: 1;
 }
 
+.bg-img{
+  background-image: url(../src/assets/bottom.png);
+}
+
 .border-custom {
   border: 3px solid;
   border-radius: 8px;
@@ -29,7 +33,7 @@
 
 .line {
   background: #59F06E;
-  animation: line 6s 5s infinite linear;
+  animation: line 6s infinite linear;
 }
 
 @keyframes line {

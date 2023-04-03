@@ -35,11 +35,11 @@ export default function Menu() {
         </nav>
 
         <a href="/">
-        <div className='border-b-2 border-green-50 opacity-50 line_2 -mb-0.5'> </div>
+        <div className='border-b-2 opacity-50 line_2 -mb-0.5'> </div>
           <button className="border-custom py-3 lg:px-8 px-4 font-semibold text-white-100">
             Connect wallet
           </button>
-          <div className='border-b-2 -mt-0.5 border-green-50 opacity-50 line_1'> </div>
+          <div className='border-b-2 -mt-0.5 opacity-50 line_1'> </div>
         </a>
       </div>
 

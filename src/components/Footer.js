@@ -12,11 +12,9 @@ import logo_1 from '../assets/logo_1.png';
 
 export default function Footer() {
   return (
-    <div className="font-inter">
+    <div className="font-inter bg-img">
 
       <footer className='relative text-white-100 mx-auto lg:px-20 font-inter px-5'>
-
-        <img src={bottom} className='absolute right-0 bottom-0 w-7/12'></img>
 
         <div data-aos="zoom-in" data-aos-delay="350" className='absolute right-0 left-1/2 -ml-56 -mt-12 lg:block hidden'>
           <img src={logo_1} alt="Logo" className='' />
