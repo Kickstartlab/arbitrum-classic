@@ -1,30 +1,24 @@
 .bg-gradient {
   background: linear-gradient(140.28deg, #39B54A -4.67%, rgba(57, 181, 74, 0.19) 118.65%);
-
 }
 
-.rotate {
-  animation: rotation 8s infinite linear;
-  filter: drop-shadow(8px 8px 6px rgb(146, 179, 221));
+.bg-blur {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(57, 181, 74, 0.6) 0%, rgba(62, 237, 150, 0.6) 22.4%, rgba(62, 237, 150, 0.6) 47.92%, rgba(2, 63, 32, 0.6) 59.38%, rgba(2, 63, 32, 0.6) 100%);
+  filter: blur(56px);
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
+.line-gradient {
+  filter: drop-shadow(4px 6px 61px rgba(99, 104, 231, 0.25));
+  border-image-source: radial-gradient(55.88% 799.61% at 50% 50%, #39B54A 0%, rgba(62, 237, 150, 0.04) 100%);
+  border-image-slice: 1;
 }
 
 .border-custom {
   border: 3px solid;
   border-radius: 8px;
   border-image-slice: 1;
-  border-image-source: linear-gradient(50deg, #023F20 0%, #006231 100%);
+  border-image-source: radial-gradient(55.88% 799.61% at 50% 50%, #39B54A 0%, rgba(62, 237, 150, 0.04) 100%);
   filter: drop-shadow(4px 6px 61px rgba(99, 104, 231, 0.25));
-  border-radius: 8px;
 }
 
 .btn-custom {
@@ -45,5 +39,36 @@
 
   100% {
     width: 100%;
+  }
+}
+
+.line_1 {
+  background: #59F06E;
+  animation: line_1 5s infinite linear;
+
+}
+
+@keyframes line_1 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.line_2 {
+  background: #59F06E;
+  animation: line_2 5s infinite linear;
+}
+
+@keyframes line_2 {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
   }
 }

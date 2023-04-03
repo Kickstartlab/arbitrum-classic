@@ -11,7 +11,7 @@ export default function Menu() {
   return (
 
     <header>
-      
+
       <div className="lg:flex hidden items-center justify-between font-montserat h-28">
         <a href="/" className="logo lg:my-12">
           <img src={logo} alt="Logo" />
@@ -25,18 +25,27 @@ export default function Menu() {
             <li><a href="/" className="text-white-50 hover:text-white-100">Whitepaper</a></li>
             <li><a href="/" className='text-white-50 hover:text-white-100'>Dapp</a></li>
           </ul>
+
+          <div className='border-b pt-6 line-gradient'>
+
+          </div>
+          <div className='border-b border-green-50 opacity-50 line'>
+
+          </div>
         </nav>
 
         <a href="/">
-          <button className="border-custom py-3 lg:px-8 px-4 mt-5 font-semibold text-white-100">
+        <div className='border-b-2 border-green-50 opacity-50 line_2 -mb-0.5'> </div>
+          <button className="border-custom py-3 lg:px-8 px-4 font-semibold text-white-100">
             Connect wallet
           </button>
+          <div className='border-b-2 -mt-0.5 border-green-50 opacity-50 line_1'> </div>
         </a>
       </div>
 
       <div className="lg:hidden flex items-center justify-between pt-5 font-montserat">
         <a href="/" className="text-white-100">
-          <img src={logo} alt="Logo" className='w-9/12'/>
+          <img src={logo} alt="Logo" className='w-9/12' />
         </a>
 
         <button onClick={() => setShow(!show)} className="nav cursor-pointer">

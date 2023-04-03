@@ -40,7 +40,7 @@ export default function Home() {
                             </p>
 
                             <h2 data-aos='fade-up' className='md:text-6xl text-3xl font-libre font-bold text-white-100'>
-                                HOLD <span className='text-green-100'>$ARBC</span> AND EARN $ARB
+                                HOLD <span className='text-green-100'>$ARBC</span> AND EARN <span className='text-white-200'>$ARB</span>
                             </h2>
 
                             <p data-aos='fade-out' className='pt-8 pb-6 lg:text-xl text-white-50 leading-loose'>
@@ -59,10 +59,12 @@ export default function Home() {
                                     </button>
                                 </a>
 
-                                <a href="/">
-                                    <button className="text-white-100 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg mt-5 border-custom">
+                                <a href="/" className='mt-5'>
+                                <div className='border-b-2 border-green-50 opacity-50 line_2 -mb-0.5'> </div>
+                                    <button className="text-white-100 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg border-custom">
                                         join community
                                     </button>
+                                    <div className='border-b-2 -mt-0.5 border-green-50 opacity-50 line_1'> </div>
                                 </a>
                             </div>
 
@@ -77,10 +79,16 @@ export default function Home() {
                                     <img src={b_3} alt=''></img>
                                     <img src={b_4} alt=''></img>
                                 </div>
+
+                                <div className='border-b line-gradient'>
+
+                                </div>
+                                <div className='border-b border-green-50 opacity-50 line w-full'>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -89,7 +97,7 @@ export default function Home() {
             <div id='about' className="lg:px-20 px-5">
                 <div className='container mx-auto'>
 
-                    <div className="lg:flex block justify-center items-center gap-x-12 py-12">
+                    <div className="lg:flex block justify-center items-center gap-x-12 lg:py-12">
 
                         <div data-aos="fade-left" className="lg:w-1/2 w-full">
 
@@ -119,6 +127,8 @@ export default function Home() {
 
                         <div data-aos="zoom-in" data-aos-delay="350" className=" md:mt-0 mt-12">
                             <img src={about} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto' />
+                            <div data-aos="zoom-in" data-aos-delay="350" className='bg-blur p-56 -mt-6 absolute -z-10 ml-24 lg:block hidden'>
+                            </div>
                         </div>
 
                     </div>
@@ -142,13 +152,13 @@ export default function Home() {
                         <div data-aos="fade-right" className="lg:w-1/2 w-full md:mt-0 mt-12">
 
                             <div className='lg:flex items-center gap-x-8 bg-black-25 p-8 rounded-xl lg:space-y-0 space-y-4'>
-                                <img src={tool_1} className=''></img>
+                                <img data-aos='zoom-in' src={tool_1} className=''></img>
 
                                 <div>
                                     <h2 className='md:text-2xl text-xl mb-5 font-semibold text-white-100 capitalize'>
                                         multi token staking platform
                                     </h2>
-                                    <p className='text-white-100'>
+                                    <p data-aos='fade-out' className='text-white-100'>
                                         Arbitrum Classic a cutting-edge multi-token staking dApp platform built on the highly scalable and efficient Arbitrum chain. Our platform offers a unique opportunity for investors and our partnership token group to stake their tokens and earn attractive APY rewards, creating a win-win scenario where both parties can benefit significantly.
                                     </p>
                                 </div>
@@ -160,13 +170,13 @@ export default function Home() {
                     <div data-aos="fade-up" className="lg:w-1/2 w-full md:mt-0 mt-5">
 
                         <div className='lg:flex items-center gap-x-8 bg-black-25 p-8 rounded-xl lg:space-y-0 space-y-4'>
-                            <img src={tool_2} className=''></img>
+                            <img data-aos='zoom-in' src={tool_2} className=''></img>
 
                             <div>
                                 <h2 className='md:text-2xl text-xl mb-5 font-semibold text-white-100 capitalize'>
                                     user-friendly dApp
                                 </h2>
-                                <p className='text-white-100'>
+                                <p data-aos='fade-out' className='text-white-100'>
                                     user-friendly dApp interface allows investors to easily stake their tokens, track their rewards, and explore the broad range of staking options available to them. We believe that our platform offers an exceptional opportunity for investors and our partnership token group to achieve their financial objectives, while simultaneously expanding our investor base
                                 </p>
                             </div>
@@ -204,7 +214,7 @@ export default function Home() {
                 </h3>
 
                 <div className='lg:flex items-end justify-center gap-8 py-8 space-y-4'>
-                    <div className='bg-gradient lg:w-96 rounded-lg p-12 h-72 flex items-center justify-center'>
+                    <div data-aos="zoom-in" data-aos-delay="350" className='bg-gradient relative lg:w-96 rounded-lg p-12 h-72 flex items-center justify-center'>
                         <p className='text-3xl font-semibold text-center'>
                             Token name:<br></br>
                             Arbitrum classic
@@ -213,17 +223,17 @@ export default function Home() {
 
                     <div>
                         <div className='grid lg:grid-cols-3 grid-cols-1 items-baseline justify-between gap-8 space-y-6'>
-                            <div className='rounded-lg bg-black-25 p-8'>
+                            <div data-aos="zoom-in" data-aos-delay="350" className='rounded-lg bg-black-25 p-8'>
                                 <p className='text-2xl font-semibold text-center'>
                                     Symbol: $ARBC
                                 </p>
                             </div>
-                            <div className='rounded-lg bg-black-25 p-8'>
+                            <div data-aos="zoom-in" data-aos-delay="350" className='rounded-lg bg-black-25 p-8'>
                                 <p className='text-2xl font-semibold text-center'>
                                     Tax:6/6
                                 </p>
                             </div>
-                            <div className='bg-green-25 rounded-lg p-8'>
+                            <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-25 rounded-lg p-8'>
                                 <p className='text-2xl font-semibold text-black-100 text-center'>
                                     2% rewards
                                 </p>
@@ -233,7 +243,7 @@ export default function Home() {
 
                         <div className='grid lg:grid-cols-3 grid-cols-1 items-center justify-between gap-8 lg:space-y-0 space-y-6 mt-8'>
 
-                            <div className='bg-green-100 rounded-lg p-8'>
+                            <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-100 rounded-lg p-8'>
                                 <p className='text-xl font-semibold text-center'>
                                     Total supply:
                                     <br></br>
@@ -241,12 +251,12 @@ export default function Home() {
                                     999.999999 $ARBC
                                 </p>
                             </div>
-                            <div className='bg-green-50 rounded-lg p-8'>
+                            <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-50 rounded-lg p-8'>
                                 <p className='text-xl font-semibold text-center'>
                                     3% marketing
                                 </p>
                             </div>
-                            <div className='bg-green-100 rounded-lg p-8'>
+                            <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-100 rounded-lg p-8'>
                                 <p className='text-xl font-semibold text-center'>
                                     1% Development
                                 </p>
