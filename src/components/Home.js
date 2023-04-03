@@ -74,7 +74,7 @@ export default function Home() {
                                 </p>
 
                                 <div className='flex flex-wrap items-center justify-center gap-x-12 py-6 space-y-3'>
-                                    <img src={b_1} alt=''></img>
+                                    <img src={b_1} alt='' className='w-40 filter-gray'></img>
                                     <img src={b_2} alt=''></img>
                                     <img src={b_3} alt=''></img>
                                     <img src={b_4} alt=''></img>

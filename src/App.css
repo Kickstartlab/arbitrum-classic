@@ -7,6 +7,10 @@
   filter: blur(56px);
 }
 
+.filter-gray{
+  filter: grayscale(100%);
+}
+
 .line-gradient {
   filter: drop-shadow(4px 6px 61px rgba(99, 104, 231, 0.25));
   border-image-source: radial-gradient(55.88% 799.61% at 50% 50%, #39B54A 0%, rgba(62, 237, 150, 0.04) 100%);
