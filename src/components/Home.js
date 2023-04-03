@@ -26,7 +26,7 @@ export default function Home() {
     return (
         <div className="bg-black-50 font-inter overflow-hidden text-white-100">
 
-            <img src={bg_top} className='absolute right-0 w-full'></img>
+            <img src={bg_top} alt='' className='absolute right-0 w-full'></img>
 
             <div className="lg:px-20 px-5 bg-top relative z-20">
                 <div className='container mx-auto'>
@@ -60,7 +60,7 @@ export default function Home() {
                                 </a>
 
                                 <a href="https://t.me/arbitrumclassic_arb" className='mt-5'>
-                                <div className='border-b-2 border-green-50 opacity-50 line_2 -mb-0.5'> </div>
+                                    <div className='border-b-2 border-green-50 opacity-50 line_2 -mb-0.5'> </div>
                                     <button className="text-white-100 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg border-custom">
                                         join community
                                     </button>
@@ -152,7 +152,7 @@ export default function Home() {
                         <div data-aos="fade-right" className="lg:w-1/2 w-full md:mt-0 mt-12">
 
                             <div className='lg:flex items-center gap-x-8 bg-black-25 p-8 rounded-xl lg:space-y-0 space-y-4'>
-                                <img data-aos='zoom-in' src={tool_1} className=''></img>
+                                <img data-aos='zoom-in' src={tool_1} alt='' className=''></img>
 
                                 <div>
                                     <h2 className='md:text-2xl text-xl mb-5 font-semibold text-white-100 capitalize'>
@@ -170,7 +170,7 @@ export default function Home() {
                     <div data-aos="fade-up" className="lg:w-1/2 w-full md:mt-0 mt-5">
 
                         <div className='lg:flex items-center gap-x-8 bg-black-25 p-8 rounded-xl lg:space-y-0 space-y-4'>
-                            <img data-aos='zoom-in' src={tool_2} className=''></img>
+                            <img data-aos='zoom-in' src={tool_2} alt='' className=''></img>
 
                             <div>
                                 <h2 className='md:text-2xl text-xl mb-5 font-semibold text-white-100 capitalize'>
@@ -186,7 +186,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <img src={side} className='absolute left-0 w-1/2'></img>
+            <img src={side} alt='' className='absolute left-0 w-1/2'></img>
 
 
             {/* How it Works */}
@@ -245,10 +245,7 @@ export default function Home() {
 
                             <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-100 rounded-lg p-8'>
                                 <p className='text-xl font-semibold text-center'>
-                                    Total supply:
-                                    <br></br>
-                                    9,999,999,
-                                    999.999999 $ARBC
+                                    1% Development
                                 </p>
                             </div>
                             <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-50 rounded-lg p-8'>
@@ -258,7 +255,10 @@ export default function Home() {
                             </div>
                             <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-100 rounded-lg p-8'>
                                 <p className='text-xl font-semibold text-center'>
-                                    1% Development
+                                    Total supply:
+                                    <br></br>
+                                    9,999,999,
+                                    999.999999 $ARBC
                                 </p>
                             </div>
                         </div>

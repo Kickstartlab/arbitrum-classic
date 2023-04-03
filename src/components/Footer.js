@@ -5,7 +5,6 @@ import icon_3 from '../assets/icon_3.png';
 import icon_4 from '../assets/icon_4.png';
 import icon_5 from '../assets/icon_5.png';
 import icon_6 from '../assets/icon_6.png';
-import bottom from '../assets/bottom.png';
 import logo_1 from '../assets/logo_1.png';
 
 
@@ -58,22 +57,22 @@ export default function Footer() {
           <p className='pt-12 pb-6 text-white-50'>Copyright © {new Date().getFullYear()} Airbtrum Classic. All rights reserved.</p>
 
           <div className='flex items-center'>
-            <a href=''>
+            <a href='/'>
               <img src={icon_1} alt=''></img>
             </a>
-            <a href=''>
+            <a href='/'>
               <img src={icon_2} alt=''></img>
             </a>
-            <a href=''>
+            <a href='/'>
               <img src={icon_3} alt=''></img>
             </a>
-            <a href=''>
+            <a href='/'>
               <img src={icon_4} alt=''></img>
             </a>
-            <a href=''>
+            <a href='/'>
               <img src={icon_5} alt=''></img>
             </a>
-            <a href=''>
+            <a href='/'>
               <img src={icon_6} alt=''></img>
             </a>
           </div>
