@@ -49,7 +49,7 @@ export default function Home() {
 
                             <div data-aos='zoom-in' className="flex items-center justify-center gap-12 mx-auto">
                                 <a href="/">
-                                    <button className="text-white-100 btn-custom py-4 flex items-center gap-x-2 md:text-lg text-sm md:px-8 px-3 font-semibold mt-5">
+                                    <button className="text-white-100 btn-custom py-4 flex items-center gap-x-2 md:text-lg text-xs md:px-8 px-3 font-semibold mt-5">
                                         Get Started
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -60,7 +60,7 @@ export default function Home() {
                                 </a>
 
                                 <a href="/">
-                                    <button className="text-white-100 font-semibold text-lg px-5 py-3 rounded-lg mt-5 border-custom">
+                                    <button className="text-white-100 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg mt-5 border-custom">
                                         join community
                                     </button>
                                 </a>
