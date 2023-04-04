@@ -224,10 +224,14 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <div className='grid lg:grid-cols-3 grid-cols-1 items-baseline justify-between gap-8'>
-                            <div data-aos="zoom-in" data-aos-delay="350" className='rounded-lg bg-black-25 p-8'>
-                                <p className='text-2xl font-semibold text-center'>
-                                    Symbol: $ARBC
+                        <div className='grid lg:grid-cols-3 grid-cols-1 items-center justify-between gap-8'>
+
+                            <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-100 rounded-lg p-8'>
+                                <p className='text-xl font-semibold text-center'>
+                                    Total supply:
+                                    <br></br>
+                                    9,999,999,
+                                    999.999999 $ARBC
                                 </p>
                             </div>
                             <div data-aos="zoom-in" data-aos-delay="350" className='rounded-lg bg-black-25 p-8'>
@@ -255,12 +259,10 @@ export default function Home() {
                                     3% marketing
                                 </p>
                             </div>
-                            <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-100 rounded-lg p-8'>
-                                <p className='text-xl font-semibold text-center'>
-                                    Total supply:
-                                    <br></br>
-                                    9,999,999,
-                                    999.999999 $ARBC
+
+                            <div data-aos="zoom-in" data-aos-delay="350" className='rounded-lg bg-black-25 p-8'>
+                                <p className='text-2xl font-semibold text-center'>
+                                    Symbol: $ARBC
                                 </p>
                             </div>
                         </div>
