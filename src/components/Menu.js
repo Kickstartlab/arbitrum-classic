@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/logo.png';
+import logo_2 from '../assets/logo_2.png';
 
 
 
@@ -13,7 +14,9 @@ export default function Menu() {
     <header>
 
       <div className="lg:flex hidden items-center justify-between font-montserat h-28">
-        <a href="/" className="logo lg:my-12">
+        <a href="/" className="logo lg:my-12 flex items-center ">
+          <img src={logo_2} alt="Logo" />
+
           <img src={logo} alt="Logo" />
         </a>
 
@@ -35,7 +38,7 @@ export default function Menu() {
         </nav>
 
         <a href="/">
-        <div className='border-b-2 opacity-50 line_2 -mb-0.5'> </div>
+          <div className='border-b-2 opacity-50 line_2 -mb-0.5'> </div>
           <button className="border-custom py-3 lg:px-8 px-4 font-semibold text-white-100">
             Connect wallet
           </button>
@@ -44,8 +47,10 @@ export default function Menu() {
       </div>
 
       <div className="lg:hidden flex items-center justify-between pt-5 font-montserat">
-        <a href="/" className="text-white-100">
-          <img src={logo} alt="Logo" className='w-9/12' />
+        <a href="/" className="logo lg:my-12 flex items-center ">
+          <img src={logo_2} alt="Logo" />
+
+          <img src={logo} alt="Logo" className='w-1/2'/>
         </a>
 
         <button onClick={() => setShow(!show)} className="nav cursor-pointer">
@@ -61,7 +66,9 @@ export default function Menu() {
         show ? <div className="sidebar fixed top-0 bottom-0 left-0 p-2 w-3/4 overflow-y-auto text-center font-inter font-semibold bg-green-100 z-20">
 
           <div className="mt-3 px-3 mb-12">
-            <a href="/" className="text-white-100">
+            <a href="/" className="flex items-center pr-2 w-1/2">
+              <img src={logo_2} alt="Logo" />
+
               <img src={logo} alt="Logo" />
             </a>
           </div>

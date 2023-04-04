@@ -10,6 +10,7 @@ import about from '../assets/about.png';
 import tool_1 from '../assets/tool_1.png';
 import tool_2 from '../assets/tool_2.png';
 import side from '../assets/side.png';
+import logo_1 from '../assets/logo_1.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -32,9 +33,10 @@ export default function Home() {
                 <div className='container mx-auto'>
 
                     <Menu />
-                    <div className="flex flex-col justify-center items-center gap-y-12 py-20">
-                        <div className="text-center lg:w-9/12">
+                    <div className="flex flex-col justify-center items-center gap-y-12 lg:py-28 py-12">
+                        <img data-aos="zoom-in" data-aos-delay="350" src={logo_1} alt="Logo" className='lg:w-3/12 w-7/12 flex mx-auto absolute top-1/4 lg:-mt-28 -mt-32' />
 
+                        <div className="text-center lg:w-9/12">
                             <p className='py-5 text-xl text-white-50'>
                                 Arbitrum Classic the first Arbitrum multi token staking platform
                             </p>
@@ -222,7 +224,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <div className='grid lg:grid-cols-3 grid-cols-1 items-baseline justify-between gap-8 space-y-6'>
+                        <div className='grid lg:grid-cols-3 grid-cols-1 items-baseline justify-between gap-8'>
                             <div data-aos="zoom-in" data-aos-delay="350" className='rounded-lg bg-black-25 p-8'>
                                 <p className='text-2xl font-semibold text-center'>
                                     Symbol: $ARBC
@@ -241,7 +243,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className='grid lg:grid-cols-3 grid-cols-1 items-center justify-between gap-8 lg:space-y-0 space-y-6 mt-8'>
+                        <div className='grid lg:grid-cols-3 grid-cols-1 items-center justify-between gap-8 mt-8'>
 
                             <div data-aos="zoom-in" data-aos-delay="350" className='bg-green-100 rounded-lg p-8'>
                                 <p className='text-xl font-semibold text-center'>
